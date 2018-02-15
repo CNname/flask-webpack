@@ -1,0 +1,70 @@
+{
+  "name": "ML-Flask-Webpack",
+  "version": "0.0.1",
+  "author": "Unkown",
+  "license": "MIT",
+  "description": "Identify UI components from images",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CNname/flask-webpack.git"
+  },
+  "keywords": [
+    "machine-learning",
+    "components",
+    "styled-components"
+  ],
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server --progress --colors --port 2992 --content-base build/public",
+    "build": "node_modules/.bin/webpack --progress --profile --colors",
+    "storybook": "start-storybook -p 6006",
+    "serve": "export FLASK_APP=app.py && Flask run"
+  },
+  "dependencies": {
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "image-webpack-loader": "^4.1.0",
+    "manifest-revision-webpack-plugin": "^0.4.1",
+    "script-loader": "^0.7.2",
+    "style-loader": "^0.20.0",
+    "uikit": "^3.0.0-beta.40",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.0",
+    "classnames": "^2.2.5",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.6.0",
+    "react": "^16.x.x",
+    "react-dom": "^16.x.x",
+    "react-router-dom": "^4.2.2",
+    "recompose": "^0.25.0",
+    "styled-components": "^2.1.2",
+    "styled-utils": "^1.2.4"
+  },
+  "devDependencies": {
+    "file-loader": "^1.1.6",
+    "@storybook/addon-actions": "^3.3.13",
+    "@storybook/addon-console": "^1.0.0",
+    "@storybook/addon-info": "^3.3.13",
+    "@storybook/addons": "^3.3.13",
+    "@storybook/react": "3.2.17",
+    "@storybook/storybook-deployer": "^2.0.0",
+    "add-component": "^2.5.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "7.2.3",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-module-resolver": "^2.7.1",
+    "babel-plugin-styled-components": "^1.1.7",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.17.0",
+    "flow-bin": "^0.54.1",
+    "img-loader": "^2.0.1",
+    "loki": "0.9.1",
+    "standard": "^10.0.3",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.5.4",
+    "webpack-dev-server": "^2.9.4",
+    "webpack-node-externals": "^1.6.0",
+    "yargs": "^8.0.2"
+  }
+}

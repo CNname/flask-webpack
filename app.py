@@ -35,7 +35,7 @@ app = create_app()
 
 @app.route('/')
 def index():
-    return render_template('index.jinja2')
+    return render_template('./index.html')
 
 if __name__ == '__main__':
     run_simple('localhost', 5000, app, use_reloader=True, use_debugger=True)

@@ -19,6 +19,12 @@ npm-debug.log
 .installed.cfg
 *.egg
 
+# Python stuff
+venv
+
+# Node
+node_modules
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt

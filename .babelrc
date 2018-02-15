@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "react",
+  ],
+  "plugins": [
+    [ "styled-components" ],
+    [ "transform-object-rest-spread" ],
+    [
+      "module-resolver",
+      {
+        "root": [ "./assets" ],
+        "alias": {}
+      }
+    ]
+  ]
+}
